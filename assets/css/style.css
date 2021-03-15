@@ -1,0 +1,5 @@
+[class*='col-'] {
+  height: 170px;
+  background-color: #fec0cb;
+  border: 1px solid #000000;
+}
