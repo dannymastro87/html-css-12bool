@@ -1,5 +1,22 @@
 [class*='col-'] {
-  height: 170px;
-  background-color: #fec0cb;
-  border: 1px solid #000000;
+  text-align: center;
+  line-height: 170px;
+}
+
+.container > .col-6 > .col-2 {
+  margin: 5px;
+  background-color: #f08080;
+  border: 1px solid #ffffff;
+}
+
+.container > .col-6 > .col-6 {
+  margin: 5px;
+  background-color: #f08080;
+  border: 1px solid #ffffff;
+}
+
+.container > .col-6 > .col-8 {
+  margin: 5px;
+  background-color: #f08080;
+  border: 1px solid #ffffff;
 }
