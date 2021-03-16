@@ -1,24 +1,18 @@
 [class*='col-'] {
+  height: 170px;
+  background-color: #fec0cb;
+  border: 1px solid #000000;
   text-align: center;
   line-height: 170px;
   padding: 10px;
 }
 
-.container > .col-6 > .container > .col-2 {
+[class*='col-'] > .container {
   height: 150px;
   line-height: 150px;
-  background-color: #f08080;
-  border: 1px solid #ffffff;
 }
 
-.container > .col-6 > .container >  .col-6 {
-  height: 150px;
-  line-height: 150px;
-  background-color: #f08080;
-  border: 1px solid #ffffff;
-}
-
-.container > .col-6 > .container >  .col-8 {
+[class*='col-'] > .container  >  [class*='col-'] {
   height: 150px;
   line-height: 150px;
   background-color: #f08080;

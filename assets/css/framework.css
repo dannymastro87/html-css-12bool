@@ -17,9 +17,6 @@
 
 [class*="col-"]{
   float: left;
-  height: 170px;
-  background-color: #fec0cb;
-  border: 1px solid #000000;
 }
 
 .col-12{
